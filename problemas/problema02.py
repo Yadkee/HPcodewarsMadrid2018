@@ -1,5 +1,4 @@
 #! python3
-
 """[2] ¿Naciste en año impar? ¡Pues no juegas! - 4 Puntos:
   Recibirás 5 años de nacimiento y debes devolver lo siguiente.
     • "You win", si hay más jugadores nacidos en año par.

@@ -1,5 +1,4 @@
 #! python3
-
 """[4] Calienta, que sales - 4 Puntos:
   Se recibirán dos nombres y dos valores booleanos representando
    si el balón está inmóvil y el reloj detenido respectivamente.
@@ -9,7 +8,8 @@
   El formato es:
    'Sustitución legal: JugadorQueEntra sustituyes a JugadorQueSale'
    o bien
-   'Falta técnica: Balón en movimiento, Reloj no detenido - JugadorQueEntra sigues en el banquillo'"""
+   'Falta técnica: Balón en movimiento, Reloj no detenido - JugadorQueEntra
+    sigues en el banquillo'"""
 
 JugadorQueSale, JugadorQueEntra, EstadoBalón, EstadoReloj = input().split(" ")
 

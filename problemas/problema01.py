@@ -1,5 +1,4 @@
 #! python3
-
 """[1] ¡Bienvenidos a CodeWars! (Expert mode) - 2 Puntos:
   Se recibirá el nombre del equipo y se debe devolver
   'Welcome to CodeWars *NOMBRE DEL EQUIPO*'"""

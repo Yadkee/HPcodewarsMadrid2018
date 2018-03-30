@@ -1,13 +1,13 @@
 #! python3
-
 """[5] El ViUarato - 6 Puntos:
   Se recibirán los resultados de 3 partidos y la suma de puntos
    a favor y en contra.
   Se deberá determinar si la suma es correcta y sino devolver la diferencia."""
 
 inp = input().split(" ")
-diferencias = [int(inp[3 + j]) - sum(int(i.split("-")[j])
-               for i in inp[:3]) for j in range(2)]
+marcadores = [[int(j) for j in i.split("-")] for i in inp[:3]]
+balance = (int(inp[3]), int(inp[4]))
+diferencias = tuple(balance[j] - sum(i[j] for i in marcadores) for j in (0, 1))
 
 if diferencias[0] == diferencias[1] == 0:
     print("Puntuación Correcta")
