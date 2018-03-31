@@ -1,5 +1,5 @@
 #! python3
-"""[5] El ViUarato - 6 Puntos:
+"""[5] El Villarato - 6 Puntos:
   Se recibirán los resultados de 3 partidos y la suma de puntos
    a favor y en contra.
   Se deberá determinar si la suma es correcta y sino devolver la diferencia."""
