@@ -165,6 +165,6 @@ diferencia con los puntos reales.
 
 >Este equipo ha sido hackeado: PC: +10
 ##### Solución
-Parto el input en espacios y divido los tres primeros bloques en tuplas de valores enteros (los marcadores). Así mismo llamo balance a los últimos dos bloques. A continuación calculo la diferencia como la diferencia de los balances con la suma de los marcadores.
+Partimos el input en espacios y dividimos los tres primeros bloques en tuplas de valores enteros (los marcadores). Así mismo llamamos balance a los últimos dos bloques. A continuación calculamos la diferencia como la diferencia de los balances con la suma de los marcadores.
 
-Por último solo queda devolver la cadena de texto adecuada con la diferencia cuando sea necesaria. Nótese el "%+d" cuando introduzco los valores en la cadena, el más indica que se ha de mostrar el signo aun cuando sean valores positivos.
+Por último solo queda devolver la cadena de texto adecuada con la diferencia cuando sea necesaria. Nótese el "%+d" cuando introducimos los valores en la cadena, el más indica que se ha de mostrar el signo aun cuando sean valores positivos.
