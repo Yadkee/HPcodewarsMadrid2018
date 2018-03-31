@@ -121,3 +121,50 @@ Falta técnica: Balón en movimiento, Reloj no detenido - JugadorQueEntra sigues
 >Sustitución legal: Sara sustituyes a Marta
 ##### Solución
 Primero separamos los valores. A esto le suceden los cuatro casos posibles y los mensajes que se han de devolver en cada caso.
+
+# [[5] El Villarato - 6 Puntos](/problemas/problema05.py)
+```
+Un grupo de clberdelincuentes ha conseguido hackear la base de datos con los resultados deportivos de la
+actual temporada de la Liga Colegial. Desafortunadamente los servidores que alojaban esta Información no
+disponían de un sistema de copia de seguridad que garantizase la recuperación de los datos originales en
+caso de pérdida. Desde la organización se solicita la colaboración de los equipos participantes en el torneo
+HP CodeWars para identificar a los equipos que han sido víctimas del hackeo.
+Pero, ¿qué han hecho los ciberdelincuentes? Han modificado la base de datos de resultados de modo que
+algunos equipos han sufrido modificaciones en los puntos a favor y puntos en contra obtenidos en los 3
+primeros partidos de la liga.
+Debéis desarrollar un programa que reciba los marcadores de los 3 primeros encuentros, así como los puntos
+a favor y puntos en contra. Si los valores de puntos para cada equipo no coinciden con la suma obtenida
+según los marcadores, el equipo ha sido hackeado. En caso contrario, la puntuación es correcta.
+La entrada de datos está compuesta por:
+1. Los marcadores de los 3 primeros encuentros.
+2. Puntos a favor.
+3. Puntos en contra.
+marcadorPartido1 marcadorPartido2 marcadorPartido3 PuntosAFavor PuntosEnContra
+La salida estará formada por:
+• Un mensaje Indicando si el equipo ha sido hackeado, "Este equipo ha sido hackeado: o la puntuación
+es correcta, "Puntuación Correcta".
+• La diferencia de puntos a favor.
+• La diferencia de puntos en contra.
+La diferencia de puntos debe mostrarse Junto con un símbolo "+" o un símbolo "-", dependiendo de la
+diferencia con los puntos reales.
+```
+###### Entrada
+>50-20 50-20 50-20 150 60
+
+>50-20 50-20 50-20 250 100
+
+>50-20 50-20 50-20 100 50
+
+>50-20 50-20 50-20 150 70
+###### Salida
+>Puntuación Correcta
+
+>Este equipo ha sido hackeado: PF: +100 PC: +40
+
+>Este equipo ha sido hackeado: PF: -50 PC: -10
+
+>Este equipo ha sido hackeado: PC: +10
+##### Solución
+Parto el input en espacios y divido los tres primeros bloques en tuplas de valores enteros (los marcadores). Así mismo llamo balance a los últimos dos bloques. A continuación calculo la diferencia como la diferencia de los balances con la suma de los marcadores.
+
+Por último solo queda devolver la cadena de texto adecuada con la diferencia cuando sea necesaria. Nótese el "%+d" cuando introduzco los valores en la cadena, el más indica que se ha de mostrar el signo aun cuando sean valores positivos.
