@@ -27,3 +27,6 @@ tienes los enunciados originales (un poco garabateados por Kike y por mí).
 * [[10] La zona extraña - 16 Puntos](/problemas/problema10.py)
 * [[11] Seguridad en las cuentas - 17 Puntos](/problemas/problema11.py)
 * [[12] El General Manager rata - 23 Puntos](/problemas/problema12.py)
+
+#### Nota:
+A pesar de que las soluciones tienen licencia MIT los enunciados pertenecen a HP.
