@@ -1,4 +1,3 @@
-# WIP
 # [[0] ¡Bienvenidos a CodeWars! - 1 Punto](/problemas/problema00.py)
 ```
 Este es un ejercicio obligatorio, sin el cual no se podrá continuar con el resto.
