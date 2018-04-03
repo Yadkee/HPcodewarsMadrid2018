@@ -15,7 +15,7 @@ Simplemente consiste en devolver la cadena de texto "Welcome to CodeWars!" y par
 # [[1] ¡Bienvenidos a CodeWars! (Expert mode) - 2 Puntos](/problemas/problema01.py)
 ```
 Coged vuestras toallas y secad el sudor de vuestras frentes después del ejercicio anterior.
-Este es el primer problema serlo ...
+Este es el primer problema serio ...
 Debéis desarrollar un programa que muestre por pantalla un mensaje de bienvenida personalizado para
 vuestro equipo.
 ```
@@ -31,7 +31,7 @@ En esta ocasión hemos de hacer uso de la función input() para pedirle al usuar
 # [[2] ¿Naciste en año impar? ¡Pues no juegas! - 4 Puntos](/problemas/problema02.py)
 ```
 Uno de los más conocidos clubes de Baloncesto de Madrid ha resurgido, pero el entrenador nuevo es muy
-supersticioso con los números. Piensa que los números Impares le traen mala suerte, y quiere que durante
+supersticioso con los números. Piensa que los números impares le traen mala suerte, y quiere que durante
 un partido nunca haya más jugadores nacidos en año impar que en año par en la pista.
 Implementad un programa que reciba como parámetro de entrada las cinco fechas de nacimiento, separadas
 por coma, de los cinco jugadores que están en la pista, y devuelva:
@@ -58,7 +58,7 @@ por coma, de los cinco jugadores que están en la pista, y devuelva:
 ##### Solución
 Ahora recibimos varios números en un mismo input(). Para separarlos usamos el método "".split() poniendo la coma como separador. A continuación verificamos que el número de años sea 5.
 
-Para determinar el número de impares sumamos 1 por cada año de nacimiento si ese año es impar (n & 1 verifica si un número es impar mirando su último bit en binario. Si este bit es 1 es que es impar).
+Para determinar el número de impares sumamos 1 por cada año de nacimiento si ese año es impar (n & 1 verifica si un número es impar mirando su último bit en binario. Si este bit es 1 significa que el número es impar).
 
 Por último devolvemos si hemos ganado o perdido.
 
@@ -72,7 +72,7 @@ ganador.
 Deberá sacar como salida;
 • "Equipo A ganador", si el primer parámetro es mayor que el segundo.
 • "Equipo B ganador", si el segundo parámetro es mayor que el primero.
-• "Sejuega prorroga", si los parámetros son iguales.
+• "Se juega prorroga", si los parámetros son iguales.
 ```
 ###### Entrada
 >88 90
@@ -98,7 +98,6 @@ EstadoBalón vale 0 si el balón está en movimiento y 1 si el balón está dete
 EstadoReloj vale 0 si el reloj no se ha detenido y 1 si el reloj está detenido.
 El formato de salida es:
 Sustitución legal: JugadorQueEntra sustituyes a JugadorQueSale
-EstadoReloj
 o bien
 Falta técnica: Balón en movimiento, Reloj no detenido - JugadorQueEntra sigues en el banquillo
 ```
@@ -124,7 +123,7 @@ Primero separamos los valores. A esto le suceden los cuatro casos posibles y los
 # [[5] El Villarato - 6 Puntos](/problemas/problema05.py)
 ```
 Un grupo de clberdelincuentes ha conseguido hackear la base de datos con los resultados deportivos de la
-actual temporada de la Liga Colegial. Desafortunadamente los servidores que alojaban esta Información no
+actual temporada de la Liga Colegial. Desafortunadamente los servidores que alojaban esta información no
 disponían de un sistema de copia de seguridad que garantizase la recuperación de los datos originales en
 caso de pérdida. Desde la organización se solicita la colaboración de los equipos participantes en el torneo
 HP CodeWars para identificar a los equipos que han sido víctimas del hackeo.
