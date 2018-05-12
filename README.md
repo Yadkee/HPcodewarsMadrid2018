@@ -2,11 +2,11 @@
 
 #### English:
 This solutions are good enough to win HP Codewars Madrid 2018
-([like @Kikerechu and I did](http://www.europapress.es/portaltic/sector/noticia-hp-celebra-madrid-competicion-educativa-codewars-alumnos-11-centros-escolares-20180226151259.html)).
+([like @EnriqCG and I did](http://www.europapress.es/portaltic/sector/noticia-hp-celebra-madrid-competicion-educativa-codewars-alumnos-11-centros-escolares-20180226151259.html)).
 
 #### Español:
 Estas soluciones son lo bastante buenas para ganar HP Codewars Madrid 2018
-([como hicimos @Kikerechu y yo](http://www.europapress.es/portaltic/sector/noticia-hp-celebra-madrid-competicion-educativa-codewars-alumnos-11-centros-escolares-20180226151259.html)).
+([como hicimos @EnriqCG y yo](http://www.europapress.es/portaltic/sector/noticia-hp-celebra-madrid-competicion-educativa-codewars-alumnos-11-centros-escolares-20180226151259.html)).
 
 ### Explicaciones:
 [Aquí](/Explicaciones.md) encontrarás las explicaciones detalladas de
